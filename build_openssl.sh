@@ -4,14 +4,14 @@
 
 if [[ -z "${ANDROID_NDK_HOME}" ]]; then
 	# need change
-	export ANDROID_NDK_HOME=~/Android/Sdk/ndk/23.0.7123448
+	export ANDROID_NDK_HOME=~/Android/Sdk/ndk/21.4.7075529
 else
 	echo "Use environment variable ANDROID_NDK_HOME is: $ANDROID_NDK_HOME"
 fi
 sleep 3
 # need change
 export OPENSSL_VERSION="openssl-1.1.1l"
-curl -O "https://www.openssl.org/source/${OPENSSL_VERSION}.tar.gz"
+#curl -O "https://www.openssl.org/source/${OPENSSL_VERSION}.tar.gz"
 
 
 PROJECT_HOME=`pwd`
