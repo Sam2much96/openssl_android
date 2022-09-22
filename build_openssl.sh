@@ -19,8 +19,8 @@ PATH_ORG=$PATH
 OUTPUT_DIR="libs/android/clang"
 
 # Clean output:
-rm -rf $OUTPUT_DIR
-mkdir $OUTPUT_DIR
+sudo rm -rf $OUTPUT_DIR
+sudo mkdir $OUTPUT_DIR
 
 build_android_clang() {
 	rm -rf ${OPENSSL_VERSION}
